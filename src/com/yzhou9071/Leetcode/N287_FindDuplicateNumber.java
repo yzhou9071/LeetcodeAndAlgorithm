@@ -1,7 +1,6 @@
 package com.yzhou9071.Leetcode;
 
 public class N287_FindDuplicateNumber {
-	//http://www.cnblogs.com/grandyang/p/4843654.html
 	public int findDuplicate(int[] nums) {
 		if(nums.length <= 0) 
 			return 0;

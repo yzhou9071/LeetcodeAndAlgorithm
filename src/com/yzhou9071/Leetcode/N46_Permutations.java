@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class N46_Permutations {
-	//http://blog.csdn.net/linhuanmars/article/details/21569031
 	public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         if(nums.length <= 0)

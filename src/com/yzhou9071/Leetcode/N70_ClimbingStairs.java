@@ -1,7 +1,6 @@
 package com.yzhou9071.Leetcode;
 
 public class N70_ClimbingStairs {
-	//http://blog.csdn.net/kenden23/article/details/17377869
 	public int climbStairs(int n) {
 		int[] tmp = new int[3];
 		tmp[0] = 1;

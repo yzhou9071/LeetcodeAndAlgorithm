@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class N22_GenerateParenthese {
-	//https://zh.wikipedia.org/wiki/%E5%8D%A1%E5%A1%94%E5%85%B0%E6%95%B0
-	//http://blog.csdn.net/linhuanmars/article/details/19873463
 	public List<String> generateParenthesis(int n) {
 		List<String> parentheses = new ArrayList<String>();
 		if(n == 0)

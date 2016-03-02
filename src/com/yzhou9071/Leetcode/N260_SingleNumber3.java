@@ -1,8 +1,6 @@
 package com.yzhou9071.Leetcode;
 
 public class N260_SingleNumber3 {
-	//https://leetcode.com/discuss/76099/a-summary-of-java-solutions
-	//http://bookshadow.com/weblog/2015/08/17/leetcode-single-number-iii/
 	public int[] singleNumber(int[] nums) {
         int[] ret = {0,0};
         int xorRet = 0;
